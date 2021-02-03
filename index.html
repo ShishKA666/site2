@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+       <h1>АНКЕТА</h1>
+       <fieldset>
+       <legend>Контактная информация</legend>
+        <input type="text" placeholder="Введите имя">
+        <input type="number" placeholder="Введите номер телефона">
+        <input type="email" placeholder="Введите email">
+        </fieldset>
+        <fieldset>
+        <legend>Личная информация</legend>
+        <label for="age">Ваш возвраст</label>
+        <input id="age" type="number" placeholder="">
+        <label for="date">Дата рождения</label>
+        <input id="date" type="date" placeholder="">
+        <label for="select">По какому курсу занимаетесь</label>
+        <select id="select">
+            <option>
+                Scratch
+            </option>
+            <option>
+                Python
+            </option>
+            <option>
+                Front-end
+            </option>
+            <option>
+                C++
+            </option>
+            <option>
+                Дизайн
+            </option>
+        </select>
+        </fieldset>
+        <fieldset>
+           <legend>Обратная связь</legend>
+           <label>Посоветуете ли вы нас друзьям?</label>
+            <input id="check1" type="radio" name="feedback">
+            <label for="check1" class="radio">Да</label>
+            <input id="check2" type="radio" name="feedback">
+            <label for="check2" class="radio">Конечно</label>
+            <input id="check3" type="radio" name="feedback">
+            <label for="check3" class="radio">Разве могут быть другие варианты?</label>
+            <label for="text">Оставьте комментарий</label>
+            <textarea id="text"></textarea>
+        </fieldset>
+         <input id="otv1" type="checkbox">
+         <label class="box1" for="otv1">Разрешить обработку данных</label>
+         <input id="otv2" type="checkbox">
+         <label class="box1" for="otv2">Отправлять новости на почту</label>
+         <input class="submit" type="submit">
+    </form>
+    <a href="index2.html">Вторая страница</a>
+</body>
+</html>

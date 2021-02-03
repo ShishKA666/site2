@@ -1,0 +1,92 @@
+body{
+    background-image: url(bgc.jpg);
+}
+
+
+input,select,textarea{
+    width: 300px;
+    padding: 15px;
+    margin-top: 10px;
+    border: solid green 4px;
+    border-radius: 7px;
+    outline: none;
+    background-color: azure;
+    color: black;
+    
+}
+
+input::placeholder{
+    color: black;
+}
+
+form{
+    background-color: white;
+    text-align: center;
+    border-radius: 7px;
+    margin: 50px auto;
+    width: 700px;
+    padding: 30px;
+    height: 1000px;
+    
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+legend{
+    text-align: left;
+    color: #50CDAF;
+}
+
+fieldset{
+    border-color: #50CDAF;
+}
+
+label{
+    text-align: left;
+    display: block;
+    color: #50CDAF;
+    margin-top: 15px;
+}
+
+.radio{
+    display: inline-block;
+    color: black;
+}
+
+input[type=radio],input[type=checkbox]{
+    width: 13px;
+}
+
+.box1{
+    display: inline-block;
+}
+
+#text{
+    resize: none;
+}
+
+input[type=submit]{
+    margin-top: 35px;
+    background-color: #50CDAF;
+    border: none;
+    color: white;
+    
+}
+
+input[type=submit]:hover{
+    background-color: white;
+    color: #50CDAF;
+    border-color: #50CDAF;
+    border-width: 4px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

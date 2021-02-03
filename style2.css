@@ -1,0 +1,70 @@
+body{
+    background-color: azure;
+}
+
+input[type=text]{
+    border-color: gray;
+    border-width: 1px;
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 10px;
+}
+
+form{
+    background-color: white;
+    margin: 0 auto;
+    width: 300px;
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/*label{
+    position: absolute;
+    left: 290px;
+    bottom: 705px;
+    text-decoration: underline;
+    margin-left: 100px;
+}
+*/
+input[type=submit]{
+    height: 50px;
+    width: 300px;
+    background-color: #6CE797;
+    border-style: none;
+    color: white;
+}
+
+a{
+    display: block;
+    text-align: right;
+    color: deepskyblue;
+}
+
+
+input[type=checkbox]{
+    display: inline-block;
+}
+
+.label{
+   display: block;
+   font-weight: bold;
+}
+
+#password{
+   display: block; 
+}
+
+#email{
+    display: block;
+}
+
+.zapomnit{
+    text-decoration: underline;
+}
+
+.text{
+    color: white;
+}
